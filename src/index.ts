@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 import * as firebase from 'firebase';
 
+/**
+ * @function useFirebase
+ * @param {firebase.firestore.DocumentReference} docsRef 
+ * @author Piyush Garg
+ */
+
 function useFirebase(docsRef: firebase.firestore.DocumentReference) {
 
   const [value, setValue] = useState<firebase.firestore.DocumentData | undefined>();
