@@ -13,3 +13,5 @@ function useFirebase(docsRef: firebase.firestore.DocumentReference) {
 
 }
 
+export default useFirebase;
+
