@@ -6,14 +6,17 @@
 
 ```npm i use-firebase-v2```
 
-## DOCS
+## Example
 ```js
+// Import the package
 import useFirebase from 'use-firebase-v2';
 
 const myComponent = () => {
 
+  // Create a doc ref
   const docRef = firebase.firestore().collection('myCollection').doc('myDoc');
 
+  // use the hook
   const value = useFirebase(docRef);
 
   return(
