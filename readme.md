@@ -2,6 +2,10 @@
 
 ### Simple hook for react-firebase
 
+## Install
+
+```npm i use-firebase-v2```
+
 ## DOCS
 ```js
 import useFirebase from 'use-firebase-v2';
