@@ -2,9 +2,11 @@
   "name": "use-firebase",
   "version": "1.0.0",
   "description": "Simple firebase hook for react firebase projects",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "dev": "nodemon src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/piyushgarg195/use-firebase/issues"
   },
-  "homepage": "https://github.com/piyushgarg195/use-firebase#readme"
+  "homepage": "https://github.com/piyushgarg195/use-firebase#readme",
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "firebase": "^7.15.0",
+    "react": "^16.13.1",
+    "typescript": "^3.9.5"
+  }
 }
