@@ -26,7 +26,7 @@
   "homepage": "https://github.com/piyushgarg195/use-firebase#readme",
   "dependencies": {
     "@types/react": "^16.9.35",
-    "firebase": "^7.15.0",
+    "firebase": "^10.0.0",
     "react": "^16.13.1",
     "typescript": "^3.9.5"
   }
